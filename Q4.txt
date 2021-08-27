@@ -1,0 +1,13 @@
+1.  Whimsical Toys Inc (WTI) needs to record the names of all its employees. Every month, an employee will be chosen at random from these records to receive a free toy.
+ List to store name of all employees , (Math.random() * (list.size()))
+ to choose a  random employee
+
+
+2. WTI has decided that each new product will be named after an employee — but only first names will be used, and each name will be used only once. Prepare a list of unique first names.
+ Set to store unique first names product . 
+
+3. WTI decides that it only wants to use the most popular names for its toys. Count up the number of employees who have each first name.
+Map to store, where the keys (first names): values (number of employees with this first name)
+
+4.WTI acquires season tickets for the local lacrosse team, to be shared by employees. Create a waiting list for this popular sport.
+ Queue to store waiting list.  add() to add employees to the waiting list, and remove() to remove them.
